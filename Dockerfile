@@ -8,9 +8,9 @@ COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
-RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
 
-RUN pip install flask
+RUN pip3 install flask
 
 COPY . /app
 
